@@ -48,7 +48,7 @@
 						</goals>
 						<configuration>
 							<projectFile>numberconversion-soapui-project.xml</projectFile>
-							<endpoint>https://restcountries.eu</endpoint>
+							<endpoint>http://www.dataaccess.com/webservicesserver/numberconversion.wso</endpoint>
 							<junitReport>true</junitReport>
 							<!-- The path is reqd to be as below, the default path for surefire reports: target/surefire-reports -->
 							<outputFolder>${basedir}/target/surefire-reports</outputFolder>
